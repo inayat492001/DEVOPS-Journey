@@ -150,6 +150,8 @@ Ex: watch df -h
     watch du -sh
 watch -h 10 du -sh
 
+Date: 05-10-2026
+
 48.PIP Symbol(|)
 
  The data flows from lef to right the terminal takes whatever "commands" prints out and passes it as the new input for "command 2" to process.
@@ -253,14 +255,3 @@ n --> numeric format
 
 
 
-
-
-
-
-
-
-
-
-
-
- i

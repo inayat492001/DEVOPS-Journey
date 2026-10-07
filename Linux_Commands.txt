@@ -150,7 +150,90 @@ Ex: watch df -h
     watch du -sh
 watch -h 10 du -sh
 
-48.
+48.PIP Symbol(|)
+
+ The data flows from lef to right the terminal takes whatever "commands" prints out and passes it as the new input for "command 2" to process.
+
+49. PS (Process Status):
+
+It displays processes running in your current terminal session.
+
+SYNTAX: ps -ef (Every process running on the system with full details)
+
+SYNTAX: ps auc (Every process on the system including CPU and memory usage)
+
+It displays: -PID: Process ID
+ -%CPU %Memory
+-TTY : Process running in background
+
+--> kill pid: Request the program to for safe kill, save it state & exit nicely.
+--> kill -9 pid: Force kill, instantly forces the program to stop completely.
+--> pkill: Kill any process by their names
+--> pkill -9: clears all chrome
+
+==>Ports on Linux
+
+ports are "logical endpoints" used by the networking protocols (TCP/UDP) to route data traffic to specfic application or services on a machine
+
+=> IP address identifies a computer on a network whereas the port number identifies specific program running on that computer.
+
+Ex" IP address : street address of apparment
+    Ports: apartment number
+
+PROTOCOl/Service              port            Purpose
+
+ssh(Secure shell)              22           Secure login into machines/VMs
+
+HTTP(web)                      80           Unsecured web traffic
+
+HTTPS (Web secure)             443           Encrypted web traffics
+
+FTP (File transfer protocol)   20.21         File transfer between systems
+
+smptp(simple mail ransfer protocol) 25        Send emails
+
+DNS                             53           resolves domain names to IP addresses
+
+MYSQL DB                       3306         MYSQL Database connections
+
+Prome thews                    9090        Monitoring server
+
+Grofana                        3000         Viisualization dashboard
+
+Jenkins                        8080         CI/CD automation
+
+
+
+** Important file systems in Linux:
+
+  Path                                  Purpose
+ /                                  Root directory - top of Linux filesystems
+/home/                              Default directory of normal user data
+/etc/                               Confiiguration files for system and applications
+/etc/passwd                         Stores user account information
+/etc/groups                         stores group definition
+/etc/sudoers                        Controls sudo privilages
+/etc/hosts                          Local hostname resolutions
+/etc/fstab                          mount points and filesystems at boot
+/var/log                            Contains all system & applicaiton logs
+/var/log/syslog                     System logs (Ubuntu/Debian)
+/opt/                               Optional or third part applications
+/bin                                Essential system binaries
+/sys                                Kernal and devices information interface
+/tmp.                               Temporary storage (This will be cleared on root)
+
+50. ss : To view opens ports on your Linux machine
+
+ss -tulpn
+
+t --> TCP ports
+u --> UDP ports
+l --> Linking ports
+p --> Shows processes
+n --> numeric format
+                                                                                                                                                   226,0-1       84%
+
+
  
 
 

@@ -63,6 +63,38 @@ Developer-B
 >Accessed through internet
 > Service/ Platform
 
+*******************************
+
+1. git init(Initialize): To initialize an empty git Repository.
+
+2. git status: It will return whether the files are been tracked or untracked.
+
+3.git add: Add the files to the "staging area"
+
+staging area=> You decide which  changes should be included.
+
+4.git commit -m"": It works as a saved check point for your project.
+
+5.git push: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

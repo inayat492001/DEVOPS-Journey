@@ -1,0 +1,106 @@
+===>GIT and GIT HUB
+
+-> Project
+
+       |_ app.txt
+       |_index.html
+       |_deployment.txt
+
+=> "The previous version was better can you restore it?"
+
+- project_restore/
+
+
+Git resolves the issue by keeping tracks of changes to your project over time by: 
+-Keeping Track changes
+
+-Sees who changes what
+
+-Can go back to older versions
+
+-> Git: It is a distributed version control system used to track changes in files and manage differen versions of projects.
+
+==> Version Control:
+
+-> A system that keeps track of different version of your code.
+
+Version 1
+    |
+Version 2
+    |
+Version 3
+
+-You can move between these versions if needed.
+
+==>Distributed: Git doesn't requiire one central server just to work.
+
+
+Developer-A
+        |_Git Repo
+
+Developer-B
+        |_ Git Repo
+
+==> Every developer's Git repository can contain projects history.
+
+
+==> Git  ---> Version control tool
+==> Git hub--> It's a "cloud platform" for hosting Git repositories and collaborating around them.
+
+
+-->Git:
+> Version Control System
+>Runs Locally
+>Tracks code changes
+>Works without internet
+>Open source
+
+
+-->GItHub:
+>Cloud based platform
+>Runs Online
+>Hosts Git repository
+>Accessed through internet
+> Service/ Platform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

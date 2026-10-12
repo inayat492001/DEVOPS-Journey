@@ -2,8 +2,13 @@ sed [Stream line editor]:
 --> It is primarily used for processing and modifying text streams.
 
 Ex:  sed 's/developer/tutor/g' students.txt
+Important: Does sed modify the original file?
+No. By default, sed displays the modified output without changing the original file.
 
 Here: s- search, g-replace 
+
+To permanently modify the file:
+sed -i 's/Hyderabad/Bangalore/' students.txt
 
 Inode:
 File type

@@ -142,6 +142,36 @@ Git Branching:-
 
 
 
+*PR(Pull Request)
+
+=> A PR is a request to review and merge changes from one branch into another on Github.
+
+**Flow of a PR:
+
+Create a brach
+      |
+Make changes
+      |
+   Commit
+      |
+ Push on the Same branch on GitHub
+      |
+  Open a PR
+      |
+Add Reviews
+      |
+    Merge
+
+
+--> Git Pull: Used to download changes from a remote repository and immediately integrate them to your current local brach.
+
+git merge: Combines histories from two different branches into your current working branch.
+
+* git switch feature B
+* git merge feature A
+
+
+
 
 
 

@@ -78,6 +78,60 @@ staging area=> You decide which  changes should be included.
 5.git push: 
 
 
+**********Date:13-10-2026*******
+
+==>Basic Git Workflow:
+Working Directory
+    |
+git add
+    |
+Staging Area
+    |
+git commit
+    |
+Local Repository
+    |
+git push
+    |
+Git Hub Repository
+
+1) Working Directory :
+=> This is the directory when you actually create & modify files.
+Ex: my_project/
+       |_ app.txt
+       |__index.html
+       |_ app.js
+The change is currently in your working directory.
+
+2) Staging is the stage where you decide which changes should be included next
+
+* .git/ (Hidden Folder)
+
+It contains information that Git needs to manage the repo including History and internal repo data.
+
+* git add filename (To track specific file)
+*git add. (To track all files)
+*git config --global user.name "user name"
+*git config --global user.email "emailid@gmail.com"
+To check config => git config --global --hit
+
+3) Local Repository:
+=> It is the stage where you permanently record the staged changes as a commit/
+
+*When we do git init we will get (master) at last which says its connected by git.
+
+**git commit -m "message"
+
+** git log:
+=>It is used to display the commit history
+=> commit id
+=> author name
+git log --online:
+Shows lates commit in one line
+==> git branch -m main:
+It will rename the branch from (master) to (main)
+=> git remote -v:
+This displays the remote repository URLs connected to your local Git repository.
 
 
 

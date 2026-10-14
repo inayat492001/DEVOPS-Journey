@@ -133,6 +133,9 @@ It will rename the branch from (master) to (main)
 => git remote -v:
 This displays the remote repository URLs connected to your local Git repository.
 
+Git Branching:-
+=> A branch is a separate line of Development
+=> Developers can work on features independently and combine the changes later.
 
 
 

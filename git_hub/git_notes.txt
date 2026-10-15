@@ -133,12 +133,34 @@ It will rename the branch from (master) to (main)
 => git remote -v:
 This displays the remote repository URLs connected to your local Git repository.
 
+*******************Dt:15-10-2026****************
+
 Git Branching:-
 => A branch is a separate line of Development
 => Developers can work on features independently and combine the changes later.
 
+                                      Main[Stable Code]
+                                        |
+            -----------------------------------------------------------------
+           |                              |                                  |
+      Feature Login                  Feature Home                   Feature Profile Page
 
 
+Ex:-   Git push origin
+       ^
+       |_ Feature Login
+                   |_ app.js
+                   |_Index.html
+                   |_Html     ___ It was pushed to Main
+                   |_login.js                      |_aap.js
+                                                   |_index.html
+                                                   |_style
+
+*Each Branch can have its own commits The changes can be recived and merged later.
+
+* Git Branch: List local branches
+** git branch -m 
+         
 
 
 

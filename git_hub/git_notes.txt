@@ -201,6 +201,27 @@ git branch -a
 
 
 
+*****************Dt: 16-10-2026************
+
+->.git restore:
+    Undo to the changes before committing
+  Ex:
+      You edited a file and added to the staging area, but the changes of the file are wrong as restore you can get back to previous state of file.
+
+-> git revert:
+   => Undo a commit safely
+=> This is a especially used when the commit is already pushed to github
+=>It does not erase the old commit Instead, It creates a new commit that reverses the effect of old commits.
+
+-> git fetch:
+=> "fetch" downloads information from GitHub but does not change your current files get.
+
+
+->git diff:
+=> It shows the difference between files in both staged and Unstaged
+
+
+
 
 
 

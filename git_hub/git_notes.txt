@@ -193,6 +193,11 @@ git merge: Combines histories from two different branches into your current work
 * git merge feature A
 
 
+*****************Dt: 15-10-2026************
+
+git branch -a 
+
+==> bit all the branches (remote+local)
 
 
 

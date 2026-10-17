@@ -197,9 +197,26 @@ git merge: Combines histories from two different branches into your current work
 
 git branch -a 
 
-==> bit all the branches (remote+local)
+==> list all the branches (remote+local)
 
+* Merge Conflict 
+=> A merge conflict happens when two branches change the same part of the same file.
 
+=>Git doesn't know which version to keep So it asks us to decide.
+
+<<<<<HEAD -> The version from the branch you are currently on
+
+===== Spectator between two versions.
+>>>>> feature -a version coming from the branch being merged.
+
+==> Strategies
+1. Short lived branches
+=>Developers are encouraged to write small features and merge them quickly
+2.Frequent merges => Developers are required to pull latest changes from main daily.
+
+*Git Clone:
+
+-> It is used to target an "existing remote repository" and download a full copy of its history, files and branches onto your "local repo".
 
 *****************Dt: 16-10-2026************
 

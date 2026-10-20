@@ -151,7 +151,7 @@ Ex:-   Git push origin
        |_ Feature Login
                    |_ app.js
                    |_Index.html
-                   |_Html     ___ It was pushed to Main
+                   |_Html     ___ It will be pushed to Main
                    |_login.js                      |_aap.js
                                                    |_index.html
                                                    |_style
